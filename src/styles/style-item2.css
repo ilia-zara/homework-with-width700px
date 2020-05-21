@@ -15,6 +15,7 @@ body {
 #main {
     float: left;
     width: 55%;
+    height: 100%;
     margin-left: 20%;
 }
 
@@ -32,6 +33,7 @@ body {
 #sections {
     float: left;
     width: 20%;
+    height: 100%;
     margin-left: -75%;
 }
 
@@ -57,6 +59,7 @@ body {
 #news {
     float: right;
     width: 25%;
+    height: 100%;
 }
 
 #news h2 {
@@ -80,6 +83,7 @@ body {
 #content {
     overflow: hidden;
     width: 100%;
+    height: 83vh;
     padding-bottom: 42px;
 }
 
@@ -123,7 +127,7 @@ h1 {
 /* Colors */
 
 #title {
-    background: url(../images/title-bg.png) #45f left top repeat-x;
+    background-color: #141413;
     color: white;
 }
 
@@ -132,12 +136,20 @@ h1 {
     color: white;
 }
 
+#main{
+    background-color: #757269;
+}
+
 #main h2 {
-    color: #293499;
+    color: black;
+}
+
+#sections{
+    background-color: #908D84;
 }
 
 #sections li a {
-    background: #293499;
+    background: #403F3B;
     color: white;
     border-color: white;
 }
@@ -150,8 +162,12 @@ h1 {
     background-color: #d00;
 }
 
+#news{
+    background-color: #403F3B;
+}
+
 #news h2 {
-    background: url(../images/news-head-bg.png) #dde6ff left top repeat-x;
+    background-color: #908C82;
 }
 
 #news a {
@@ -161,7 +177,7 @@ h1 {
 
 #meta,
 #meta a {
-    background: #45f;
+    background: #141413;
     color: white;
 }
 
@@ -170,11 +186,11 @@ h1 {
 }
 
 #user a {
-    color: aqua;
+    color: #EE251B;
 }
 
 body {
-    background: url(../images/content-bg.png) white left top repeat-y;
+    background-color: #59564F;
     color: black;
 }
 
